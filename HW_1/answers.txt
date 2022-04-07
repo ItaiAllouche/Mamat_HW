@@ -1,0 +1,7 @@
+a-	it would be way longer to do this manually. there are 60 articles, each one of which contains approximately 35 lines.
+  	we think that we would have done it in about 4 hours.
+b-	Using bash is very affection for scanning files and creating new files.
+	
+c-  	we can = use crontab (a list of commands that you want to run on a regular schedule).
+	to avoid reading the same link over and over, we can mark each link that we are reading for the first time,and not reading marked links.
+		
