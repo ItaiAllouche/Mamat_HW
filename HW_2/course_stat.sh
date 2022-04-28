@@ -1,8 +1,8 @@
 #!/bin/bash
-read num_of_course
 
+num_of_course="$1"
 num_of_arg=$(echo $num_of_course | wc -w)
-if [[ $num_of_arg > 1 ]]; then 
+if [[ $num_of_arg < 1 ]]; then 
 echo "Wrong number of arguments" >&2
 exit 1
 fi
