@@ -258,10 +258,10 @@ int grades_print_student(struct grades *grades, int id){
 }
 
 int grades_print_all(struct grades *grades){
-    struct iterator *iterator = list_end(grades->student_list);
-    if(iterator == NULL){
+    if(grades == NULL){
         return FAILURE;
     }
+    struct iterator *iterator = list_end(grades->student_list);
     struct student *curr_student = list_get(iterator);
     while(iterator != NULL){
         student_print_student(curr_student);
@@ -271,8 +271,6 @@ int grades_print_all(struct grades *grades){
     return SUCCESES;
 }
 //end grade modole
-
-
 
 
 
