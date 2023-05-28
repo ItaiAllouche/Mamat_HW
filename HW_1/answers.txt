@@ -3,5 +3,5 @@ a-	it would be way longer to do this manually. there are 60 articles, each one o
 b-	Using bash is very affection for scanning files and creating new files.
 	
 c-  	we can = use crontab (a list of commands that you want to run on a regular schedule).
-	to avoid reading the same link over and over, we can mark each link that we are reading for the first time,and not reading marked links.
+	to avoid reading the same link over and over, we can mark each link that we are reading for the first time, and not reads marked links.
 		

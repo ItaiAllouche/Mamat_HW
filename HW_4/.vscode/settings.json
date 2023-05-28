@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "student.h": "c",
+        "stdio.h": "c",
+        "linked-list.h": "c",
+        "string.h": "c"
+    }
+}

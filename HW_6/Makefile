@@ -25,4 +25,5 @@ string.o: string.h string.cpp
 	$(CXX) $(CXXFLAGS)  -c -fpic string.cpp 
 
 clean:
-	rm -rf *.o 
+	rm -rf *.o libfirewall.so
+	

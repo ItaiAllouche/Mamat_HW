@@ -14,7 +14,7 @@ using namespace std;
 int main(int argc, char **argv){
 
     if(check_args(argc,argv)){// arc מספר ארגומנטים
-        return -1;
+        exit(-1);
     }
     // e.g src-ip  =122.0.0.0/8
     //String full_rule = "src-ip=210.53.65.133/8";
@@ -45,5 +45,8 @@ int main(int argc, char **argv){
     return 0;
     
 };
+
+
+
     
-   
+ 

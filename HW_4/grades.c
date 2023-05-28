@@ -139,6 +139,9 @@ struct student* student_init(int id, const char *name){
     curr_student->id = id;
     curr_student->name = str;
     curr_student->courses = list_init((void*)course_clone,(void*)course_destroy);
+    if(curr_student->courses == NULL){
+        return NULL;
+    }
     return curr_student;
 }
 
